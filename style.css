@@ -1,0 +1,308 @@
+* {
+    padding: 0; /* Поля вокруг текста */ 
+    margin: 0; /* Отступы вокруг */
+}
+                        /**/
+section {
+    min-height: 100vh;
+}
+
+.header {
+    padding-top: 44px;
+    background: url(img/bg.png) center center no-repeat;
+} 
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    margin-right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.8px; /*Промежуток между буквами*/
+}
+
+.menu a:last-child {
+    margin-right: 0;
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 370px;
+}
+
+.header-text h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.header-text p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4.2px;
+}
+
+.header-text button {
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent; /*Прозрачный фон кнопки*/
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all; /*Быстрота анимаци при наведении*/
+}
+
+.header-text button:hover { /*Анимация кнопки при наведении*/
+    background-color: #fff; /*Фон кнопки*/
+    color: #000; /*Цвет текста кнопки*/
+    border-color: #000; /*Обводка кнопки*/
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-text span {
+    color: #c4c4c4;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+
+.about-text h2 {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.about-text p {
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+.about-text button {
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent; /*Прозрачный фон кнопки*/
+    border: 2px solid #000;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all; /*Быстрота анимаци при наведении*/
+}
+
+.about-text button:hover { /*Анимация кнопки при наведении*/
+    background-color: #000; /*Фон кнопки*/
+    color: #fff; /*Цвет текста кнопки*/
+}
+
+.photos {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.photos-text h2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.photos-text p {
+    margin-top: 36px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+
+.photos-wrap {
+    margin-top: 97px;
+}
+
+.photos-wrap img {
+    margin: 10px;
+}
+
+.company {
+    margin-top: 250px;
+    margin-bottom: 160px;
+}
+
+.company-text {
+    text-align: center;
+}
+
+.company-text h2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.company-text p {
+    margin-top: 36px;
+    margin-bottom: 65px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+
+.company-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-block-1 {
+    margin-right: 34px;
+}
+
+.company-block h3{
+    margin-top: 66px;
+    margin-bottom: 55px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px
+}
+
+.company-block p {
+    color: #848484;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+    margin-bottom: 87px;
+}
+
+.company-block button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 33px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    transition: ease-in .25s;
+    letter-spacing: 3.2px;
+}
+
+.company-block button:hover {
+    background-color: #ccc;
+}
+
+.send {
+    padding: 150px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-text {
+    margin-right: 59px;
+}
+
+.send-text h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.send-text p {
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+}
+
+input {
+    margin-right: 49px;
+    background: transparents;
+    border: 2px solid #7a7a7a;
+    padding: 27px 32px;
+    color: #3a4047;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+form button {
+    cursor: pointer;
+    border: none;
+    padding: 27px 87px;
+    background-color: #3a4047;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    transition: ease-in .25s;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.footer {
+    text-align: center;
+    padding: 95px 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.12px;
+}
+
+.footer-menu {
+    margin-bottom: 66px;
+}
+
+.footer-menu a {
+    margin-right: 55px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.footer-menu a:last-child {
+    margin-right: 0;
+}
+
+.footer-text:first-child {
+    margin-bottom: 19px;
+}
